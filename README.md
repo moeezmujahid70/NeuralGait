@@ -2,6 +2,8 @@
 
 ## Project Overview
 
+![lower limb exoskeleton](image.png)
+
 ## Objective
 
 The goal of this project is to investigate how well a neural network can imitate human gait in a prosthesis. This involves not only examining “normal” gait but also comparing how the robot/controller and human react to perturbations, which are deviations from the normal gait.
