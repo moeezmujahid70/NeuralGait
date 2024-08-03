@@ -1,0 +1,22 @@
+Model: "sequential_9"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ lstm_6 (LSTM)               (None, 1, 79)             26860     
+                                                                 
+ dropout_18 (Dropout)        (None, 1, 79)             0         
+                                                                 
+ lstm_7 (LSTM)               (None, 79)                50244     
+                                                                 
+ dropout_19 (Dropout)        (None, 79)                0         
+                                                                 
+ batch_normalization_9 (Batc  (None, 79)               316       
+ hNormalization)                                                 
+                                                                 
+ dense_15 (Dense)            (None, 1)                 80        
+                                                                 
+=================================================================
+Total params: 77,500
+Trainable params: 77,342
+Non-trainable params: 158
+_________________________________________________________________

@@ -1,0 +1,22 @@
+Model: "sequential_11"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ lstm_8 (LSTM)               (None, 1, 40)             6720      
+                                                                 
+ dropout_22 (Dropout)        (None, 1, 40)             0         
+                                                                 
+ lstm_9 (LSTM)               (None, 40)                12960     
+                                                                 
+ dropout_23 (Dropout)        (None, 40)                0         
+                                                                 
+ batch_normalization_11 (Bat  (None, 40)               160       
+ chNormalization)                                                
+                                                                 
+ dense_18 (Dense)            (None, 1)                 41        
+                                                                 
+=================================================================
+Total params: 19,881
+Trainable params: 19,801
+Non-trainable params: 80
+_________________________________________________________________

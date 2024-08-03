@@ -1,0 +1,26 @@
+Model: "sequential_12"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ conv1d_14 (Conv1D)          (None, 3, 76)             152       
+                                                                 
+ dropout_24 (Dropout)        (None, 3, 76)             0         
+                                                                 
+ conv1d_15 (Conv1D)          (None, 3, 76)             5852      
+                                                                 
+ dropout_25 (Dropout)        (None, 3, 76)             0         
+                                                                 
+ flatten_7 (Flatten)         (None, 228)               0         
+                                                                 
+ batch_normalization_12 (Bat  (None, 228)              912       
+ chNormalization)                                                
+                                                                 
+ dense_19 (Dense)            (None, 50)                11450     
+                                                                 
+ dense_20 (Dense)            (None, 1)                 51        
+                                                                 
+=================================================================
+Total params: 18,417
+Trainable params: 17,961
+Non-trainable params: 456
+_________________________________________________________________
