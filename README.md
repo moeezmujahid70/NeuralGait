@@ -8,6 +8,7 @@
 
 The goal of this project is to investigate how well a neural network can imitate human gait in a prosthesis. This involves not only examining “normal” gait but also comparing how the robot/controller and human react to perturbations, which are deviations from the normal gait.
 
+
 ## Input Combinations
 
 The project aims to compare different input combinations to determine the most effective and efficient set of sensors for prostheses or exoskeletons. The input combinations include:
